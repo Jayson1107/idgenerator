@@ -7,7 +7,7 @@ import (
 	"flag"
 	"fmt"
 	"git.apache.org/thrift.git/lib/go/thrift"
-	"github.com/liusf/idgenerator/gen-go/idgenerator"
+	"idgenerator"
 	"math"
 	"net"
 	"net/url"

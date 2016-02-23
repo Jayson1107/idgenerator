@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"git.apache.org/thrift.git/lib/go/thrift"
-	"github.com/liusf/idgenerator/gen-go/idgenerator"
+	"./gen-go/idgenerator"
 )
 
 func newIdGeneratorClient(host string, port int) (timestamp int64, workerId int64) {

@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"git.apache.org/thrift.git/lib/go/thrift"
-	"github.com/liusf/idgenerator/gen-go/idgenerator"
+	"./gen-go/idgenerator"
 )
 
 func Usage() {
